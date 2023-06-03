@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProjetoIntegrador</string>
+    <string name="btnAcessar">Acessar</string>
+    <string name="btnCadFilmes">Cadastrar Filme</string>
+
+    <string name="btnGravar">Gravar</string>
+    <string name="btnExcluir">Excluir</string>
+    <string name="btnVoltar">Voltar</string>
+
+    <string name="edtId"></string>
+    <string name="edtNomeP"></string>
+    <string name="edtNomeE"></string>
+    <string name="edtCategoria"></string>
+    <string name="edtDuracao"></string>
+    <string name="edtDiretor"></string>
+    <string name="edtSinopse"></string>
+
+</resources>
