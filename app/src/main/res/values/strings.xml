@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProjetoIntegrador</string>
+    <string name="app_name">ComLibras</string>
     <string name="btnAcessar">Acessar</string>
     <string name="btnCadFilmes">Cadastrar Filme</string>
 
