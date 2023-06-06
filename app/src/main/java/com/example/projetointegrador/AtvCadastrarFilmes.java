@@ -63,6 +63,11 @@ public class AtvCadastrarFilmes extends AppCompatActivity implements View.OnClic
             f = (Filme) getIntent().getExtras().getSerializable("obj");
             edtId.setText(f.getId().toString());
             edtNomeP.setText(f.getNomeP());
+            edtNomeE.setText(f.getNomeE());
+            edtCategoria.setText(f.getCategoria());
+            edtDuracao.setText(f.getDuracao());
+            edtDiretor.setText(f.getDiretor());
+            edtSinopse.setText(f.getSinopse());
         }
     }
 

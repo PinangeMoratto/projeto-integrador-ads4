@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    tools:context=".AtvAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <LinearLayout
+            android:layout_width="306dp"
+            android:layout_height="105dp"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <TextView
+                android:id="@+id/txtNomeP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text View"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNomeE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome Inglês"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txtDuracao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duração"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txtDiretor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diretor"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/iconevideo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

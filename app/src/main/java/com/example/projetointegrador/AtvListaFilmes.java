@@ -36,6 +36,7 @@ public class AtvListaFilmes extends AppCompatActivity implements View.OnClickLis
         btnCadFilmes = findViewById(R.id.btnCadFilmes);
         btnCadFilmes.setOnClickListener(this);
 
+
         lstFilmes = findViewById(R.id.lstFilmes);
         lstFilmes.setOnItemClickListener(this);
 
@@ -51,8 +52,7 @@ public class AtvListaFilmes extends AppCompatActivity implements View.OnClickLis
 
     private void atualizarLista(){
         listaFilme = dao.listar();
-        listAdapter = new ArrayAdapter<Filme>(this,
-                android.R.layout.simple_list_item_1, listaFilme);
+        AtvAdapter listAdapter = new AtvAdapter(this, listaFilme);
         lstFilmes.setAdapter(listAdapter);
     }
 

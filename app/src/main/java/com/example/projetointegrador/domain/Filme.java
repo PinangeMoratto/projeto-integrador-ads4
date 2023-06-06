@@ -17,6 +17,11 @@ public class Filme implements Serializable {
 
     private String sinopse;
 
+    @Override
+    public String toString() {
+        return  "Filme: " + nomeP + ". Clique aqui para abrir a sinopse.";
+    }
+
     public Long getId() {
         return id;
     }
